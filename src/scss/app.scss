@@ -1,0 +1,25 @@
+a{
+  color: inherit;
+}
+*::placeholder{
+  color: inherit;
+}
+body {
+  background: #000;
+
+  color: #ffffff;
+  font-family: monospace;
+}
+.App{
+  .row{
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+  .main{
+    width: 100%;
+    height: 100%;
+    padding-top: 64px;
+  }
+}

@@ -1,0 +1,22 @@
+.my-select {
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #999999;
+  border: 2px solid #999999;
+  border-radius: 8px;
+  max-width: 360px;
+  padding: 16px;
+  background: transparent;
+  & option {
+    background: #000;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.my-select.active {
+  border-color: #fff;
+  color: #fff;
+}

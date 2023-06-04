@@ -1,0 +1,11 @@
+.label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #999999;
+  margin-bottom: 8px;
+}
+.label.active {
+  color: #ffffff;
+}
