@@ -3,7 +3,7 @@ import "./PaginationBtn.scss";
 function PaginationBtn({ value, isActive, ...props }) {
   return (
     <div
-      className={isActive ? "pagination-btn" : "pagination-btn active"}
+      className={isActive ? "pagination-btn active" : "pagination-btn"}
       {...props}
     >
       {value}

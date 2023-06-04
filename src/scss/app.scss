@@ -1,25 +1,32 @@
-a{
+a {
   color: inherit;
 }
-*::placeholder{
+*::placeholder {
   color: inherit;
 }
 body {
-  background: #000;
+  background: #000000;
 
   color: #ffffff;
   font-family: monospace;
 }
-.App{
-  .row{
+.App {
+  .row {
     display: flex;
     align-items: stretch;
     justify-content: flex-start;
-    height: 100vh;
+    min-height: 100vh;
   }
-  .main{
+  .main {
     width: 100%;
     height: 100%;
     padding-top: 64px;
   }
+}
+
+.sub-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
 }

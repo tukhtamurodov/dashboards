@@ -1,7 +1,8 @@
 import React from "react";
 import "./NavBar.scss";
 import logo from "./../../images/logo.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import NavLink from "../NavLink/NavLink";
 function NavBar() {
   return (
     <div className="nav-bar">
@@ -10,18 +11,13 @@ function NavBar() {
         <hr />
       </div>
       <nav className="nav">
-        <div className="link">
-          <Link to="/">Tavar qoshish</Link>
-        </div>
-        <div className="link active">
-          <Link to="/bannerlar">Bannerlar</Link>
-        </div>
-        <div className="link">
-          <Link to="/koshimchalar">Koshimchalar</Link>
-        </div>
-        <div className="link">
-          <Link to="/kategoriya">Kategoriya</Link>
-        </div>
+        <NavLink path={"/add-product"} text={"Tavar qoshish"} />
+        <NavLink path={"/banners"} text={"Bannerlar"} />
+        <NavLink path={"/addition"} text={"Koshimchalar"} />
+        <NavLink path={"/categories"} text={"Kategoriya"} />
+        <NavLink path={"/partner"} text={"Hamkor brendlar"} />
+        <NavLink path={"/address"} text={"Manzil"} />
+        <NavLink path={"/orders"} text={"Buyurtmalar"} />
       </nav>
 
       <div className="logout">

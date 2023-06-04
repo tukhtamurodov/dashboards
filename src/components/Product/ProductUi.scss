@@ -1,0 +1,35 @@
+.product-ui {
+  width: 274px;
+  position: relative;
+  margin-left: 12px;
+  margin-top: 12px;
+  background: #202020;
+  border-radius: 5px;
+  height: 84px;
+  .product-ui__row {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .trash {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(50%, -50%);
+    width: 24px;
+    height: 24px;
+
+    background: #202020;    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  }
+  .img{
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
