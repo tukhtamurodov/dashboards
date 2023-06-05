@@ -1,0 +1,20 @@
+.address{
+  padding-top: 80px;
+  &__row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+    margin-bottom: 72px;
+  }
+  &__view{
+    margin-top: 40px;
+  }
+  &__section{
+    width: 25%;
+  }
+  &__btn button{
+    margin-left: auto;
+  }
+}

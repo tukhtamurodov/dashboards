@@ -1,0 +1,28 @@
+.addition{
+  padding-top: 56px;
+  &__brand-name{
+    max-width: 360px;
+    margin-bottom: 32px;
+  }
+  &__upload{
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;  
+  }
+  &__section{
+    width: 33%;
+  }
+  &__btn{
+    margin-top: 48px;
+    & > button{
+      margin-left: auto;
+    }
+  }
+}

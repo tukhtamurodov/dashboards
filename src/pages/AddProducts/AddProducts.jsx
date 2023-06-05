@@ -10,6 +10,11 @@ import pen from "./../../images/pen.jpg";
 import MyTextarea from "../../components/MyTextarea/MyTextarea";
 import MyButton from "../../components/MyButton/MyButton";
 function AddProducts() {
+  const forSelect = [
+    { value: "category1", title: "category1" },
+    { value: "category2", title: "category2" },
+    { value: "category3", title: "category3" },
+  ];
   return (
     <Container title={"Tavar qoshish"}>
       <div className="add-product">
@@ -24,11 +29,11 @@ function AddProducts() {
             <div className="right__row">
               <div className="right__category">
                 <Label>Kategoriya</Label>
-                <MySelect value={"Kategoriya"} />
+                <MySelect options={forSelect} value={"Kategoriya"} />
               </div>
               <div className="right__product">
                 <Label>Mahsulot nomi</Label>
-                <MySelect value={"Mahsulot nomi"} />
+                <MySelect options={forSelect} value={"Mahsulot nomi"} />
               </div>
             </div>
             <div className="right__products">
@@ -52,7 +57,7 @@ function AddProducts() {
             </div>
             <div className="item">
               <Label isActive={false}>Kategoriya</Label>
-              <MySelect />
+              <MySelect options={forSelect} />
             </div>
             <div className="item">
               <Label isActive={false}>Rangi</Label>
@@ -70,7 +75,7 @@ function AddProducts() {
             </div>
             <div className="item">
               <Label isActive={false}>Kategoriya</Label>
-              <MySelect />
+              <MySelect options={forSelect} />
             </div>
             <div className="item">
               <Label isActive={false}>Rangi</Label>
@@ -88,7 +93,7 @@ function AddProducts() {
             </div>
             <div className="item">
               <Label isActive={false}>Kategoriya</Label>
-              <MySelect />
+              <MySelect options={forSelect} />
             </div>
             <div className="item">
               <Label isActive={false}>Rangi</Label>

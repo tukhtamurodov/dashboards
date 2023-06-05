@@ -1,13 +1,18 @@
-.container{
+.container {
   padding: 48px 24px;
   width: 100%;
-  min-height: 100%;
   background: #2f2f2f;
+
+  flex: 1 0 100%;
+  height: 100%;
+  & > * {
+    max-width: 1384px;
+  }
 }
-.container-title{
+.container-title {
   font-weight: 700;
-font-size: 32px;
-line-height: 40px;
+  font-size: 32px;
+  line-height: 40px;
 }
-.container-content{
+.container-content {
 }

@@ -1,0 +1,37 @@
+.banerlar {
+  padding-top: 48px;
+  max-width: 1384px;
+  &__main-img {
+    margin-top: 48px;
+  }
+  &__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+
+  &__small-img {
+    margin-top: 75px;
+  }
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 22px;
+    & > .upload-banner {
+      width: 50%;
+    }
+  }
+  &__selects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+  }
+  &__item{
+    width: 25%;
+  }
+}
